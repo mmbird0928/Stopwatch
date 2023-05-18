@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <solid android:color="@color/white"/>
+    </item>
+    <!--    押されたとき-->
+    <item android:state_pressed="true" android:color="@color/light_blue">
+    </item>
+    <item android:state_focused="true">
+        <solid android:color="@color/white"/>
+    </item>
+    <!--    デフォルト-->
+    <item android:color="@color/white">
+    </item>
+</selector>

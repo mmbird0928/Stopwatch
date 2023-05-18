@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+    <TextView
+        android:id="@+id/title_stopwatch"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="42dp"
+        android:layout_gravity="center"
+        android:text="@string/title_stopwatch"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+
+    <Chronometer
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:textSize="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_stopwatch"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_stopwatch"
+        android:text="@string/start"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:textColor="@drawable/btn_stopwatch_text" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="@string/reset"
+        android:textColor="@drawable/btn_record_text"
+        android:textSize="16dp" />
+
+</LinearLayout>
